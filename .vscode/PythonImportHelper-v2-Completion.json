@@ -1,0 +1,504 @@
+[
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "ModelViewSet",
+        "importPath": "rest_framework.viewsets",
+        "description": "rest_framework.viewsets",
+        "isExtraImport": true,
+        "detail": "rest_framework.viewsets",
+        "documentation": {}
+    },
+    {
+        "label": "OrderingFilter",
+        "importPath": "rest_framework.filters",
+        "description": "rest_framework.filters",
+        "isExtraImport": true,
+        "detail": "rest_framework.filters",
+        "documentation": {}
+    },
+    {
+        "label": "SearchFilter",
+        "importPath": "rest_framework.filters",
+        "description": "rest_framework.filters",
+        "isExtraImport": true,
+        "detail": "rest_framework.filters",
+        "documentation": {}
+    },
+    {
+        "label": "DjangoFilterBackend",
+        "importPath": "django_filters.rest_framework",
+        "description": "django_filters.rest_framework",
+        "isExtraImport": true,
+        "detail": "django_filters.rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "dj_database_url",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "dj_database_url",
+        "description": "dj_database_url",
+        "detail": "dj_database_url",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "yaml",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "yaml",
+        "description": "yaml",
+        "detail": "yaml",
+        "documentation": {}
+    },
+    {
+        "label": "Note",
+        "importPath": "apps.notes.models",
+        "description": "apps.notes.models",
+        "isExtraImport": true,
+        "detail": "apps.notes.models",
+        "documentation": {}
+    },
+    {
+        "label": "Note",
+        "importPath": "apps.notes.models",
+        "description": "apps.notes.models",
+        "isExtraImport": true,
+        "detail": "apps.notes.models",
+        "documentation": {}
+    },
+    {
+        "label": "now",
+        "importPath": "django.utils.timezone",
+        "description": "django.utils.timezone",
+        "isExtraImport": true,
+        "detail": "django.utils.timezone",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "obs_shards.backend.apps.notes.migrations.0001_initial",
+        "description": "obs_shards.backend.apps.notes.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = []\n    operations = [\n        migrations.CreateModel(\n            name=\"Note\",\n            fields=[\n                (\n                    \"id\",\n                    models.UUIDField(",
+        "detail": "obs_shards.backend.apps.notes.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Note",
+        "kind": 6,
+        "importPath": "obs_shards.backend.apps.notes.models",
+        "description": "obs_shards.backend.apps.notes.models",
+        "peekOfCode": "class Note(models.Model):\n    \"\"\"\n        `Note` model\n        Representation of a `.md` note file.\n    \"\"\"\n    class NoteType(models.TextChoices):\n        \"\"\"\n            `NoteType` enumerated type\n            Possible values for the `doctype` field in a `Note`\n        \"\"\"",
+        "detail": "obs_shards.backend.apps.notes.models",
+        "documentation": {}
+    },
+    {
+        "label": "NoteSerializer",
+        "kind": 6,
+        "importPath": "obs_shards.backend.apps.notes.serializers",
+        "description": "obs_shards.backend.apps.notes.serializers",
+        "peekOfCode": "class NoteSerializer(serializers.ModelSerializer):\n    \"\"\"\n        Serializer for the `Note` model\n    \"\"\"\n    class Meta:\n        \"\"\"\n            Meta class for the `NoteSerializer`\n        \"\"\"\n        model = Note\n        fields = [",
+        "detail": "obs_shards.backend.apps.notes.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "NoteCreateUpdateSerializer",
+        "kind": 6,
+        "importPath": "obs_shards.backend.apps.notes.serializers",
+        "description": "obs_shards.backend.apps.notes.serializers",
+        "peekOfCode": "class NoteCreateUpdateSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Note\n        fields = [\n            \"title\",\n            \"content\",\n            \"doctype\",\n            \"date\",\n            \"metadata\",\n        ]",
+        "detail": "obs_shards.backend.apps.notes.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "obs_shards.backend.apps.notes.urls",
+        "description": "obs_shards.backend.apps.notes.urls",
+        "peekOfCode": "router = DefaultRouter()\nrouter.register(r\"notes\", NoteViewSet, basename=\"note\")\nurlpatterns = router.urls",
+        "detail": "obs_shards.backend.apps.notes.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "obs_shards.backend.apps.notes.urls",
+        "description": "obs_shards.backend.apps.notes.urls",
+        "peekOfCode": "urlpatterns = router.urls",
+        "detail": "obs_shards.backend.apps.notes.urls",
+        "documentation": {}
+    },
+    {
+        "label": "NoteViewSet",
+        "kind": 6,
+        "importPath": "obs_shards.backend.apps.notes.views",
+        "description": "obs_shards.backend.apps.notes.views",
+        "peekOfCode": "class NoteViewSet(ModelViewSet):\n    \"\"\"\n    Viewset for the `Note` model\n    \"\"\"\n    #   Queryset for all the notes\n    queryset = Note.objects.all()\n    #   filters for the backend\n    filter_backends = [\n        DjangoFilterBackend,\n        SearchFilter,",
+        "detail": "obs_shards.backend.apps.notes.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "obs_shards.backend.config.asgi",
+        "description": "obs_shards.backend.config.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "obs_shards.backend.config.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "obs_shards.backend.config.settings",
+        "description": "obs_shards.backend.config.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/dev/howto/deployment/checklist/\nSECRET_KEY = os.getenv(\"SECRET_KEY\")\nDEBUG = os.getenv(\"DEBUG\") == \"1\"\nALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \"\").split(\",\")\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',",
+        "detail": "obs_shards.backend.config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "obs_shards.backend.config.settings",
+        "description": "obs_shards.backend.config.settings",
+        "peekOfCode": "SECRET_KEY = os.getenv(\"SECRET_KEY\")\nDEBUG = os.getenv(\"DEBUG\") == \"1\"\nALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \"\").split(\",\")\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',",
+        "detail": "obs_shards.backend.config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "obs_shards.backend.config.settings",
+        "description": "obs_shards.backend.config.settings",
+        "peekOfCode": "DEBUG = os.getenv(\"DEBUG\") == \"1\"\nALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \"\").split(\",\")\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "obs_shards.backend.config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "obs_shards.backend.config.settings",
+        "description": "obs_shards.backend.config.settings",
+        "peekOfCode": "ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \"\").split(\",\")\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'rest_framework',",
+        "detail": "obs_shards.backend.config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "obs_shards.backend.config.settings",
+        "description": "obs_shards.backend.config.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'rest_framework',\n    'django_filters',\n    #   SHARDS",
+        "detail": "obs_shards.backend.config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "obs_shards.backend.config.settings",
+        "description": "obs_shards.backend.config.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'config.urls'",
+        "detail": "obs_shards.backend.config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "obs_shards.backend.config.settings",
+        "description": "obs_shards.backend.config.settings",
+        "peekOfCode": "ROOT_URLCONF = 'config.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "obs_shards.backend.config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "obs_shards.backend.config.settings",
+        "description": "obs_shards.backend.config.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "obs_shards.backend.config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "obs_shards.backend.config.settings",
+        "description": "obs_shards.backend.config.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'config.wsgi.application'\n#   Bancos de Dados para o projeto\nDATABASES = {\n    \"default\": dj_database_url.config(\n        default=f\"postgres://{os.getenv('POSTGRES_USER')}:\"\n                f\"{os.getenv('POSTGRES_PASSWORD')}@\"\n                f\"{os.getenv('POSTGRES_HOST')}:\"\n                f\"{os.getenv('POSTGRES_PORT')}/\"\n                f\"{os.getenv('POSTGRES_DB')}\"\n    )",
+        "detail": "obs_shards.backend.config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "obs_shards.backend.config.settings",
+        "description": "obs_shards.backend.config.settings",
+        "peekOfCode": "DATABASES = {\n    \"default\": dj_database_url.config(\n        default=f\"postgres://{os.getenv('POSTGRES_USER')}:\"\n                f\"{os.getenv('POSTGRES_PASSWORD')}@\"\n                f\"{os.getenv('POSTGRES_HOST')}:\"\n                f\"{os.getenv('POSTGRES_PORT')}/\"\n                f\"{os.getenv('POSTGRES_DB')}\"\n    )\n}\n# Password validation",
+        "detail": "obs_shards.backend.config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "obs_shards.backend.config.settings",
+        "description": "obs_shards.backend.config.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "obs_shards.backend.config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "obs_shards.backend.config.settings",
+        "description": "obs_shards.backend.config.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/dev/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/dev/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "obs_shards.backend.config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "obs_shards.backend.config.settings",
+        "description": "obs_shards.backend.config.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/dev/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/dev/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "obs_shards.backend.config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "obs_shards.backend.config.settings",
+        "description": "obs_shards.backend.config.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/dev/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/dev/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "obs_shards.backend.config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "obs_shards.backend.config.settings",
+        "description": "obs_shards.backend.config.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/dev/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/dev/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "obs_shards.backend.config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "obs_shards.backend.config.settings",
+        "description": "obs_shards.backend.config.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/dev/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "obs_shards.backend.config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "obs_shards.backend.config.settings",
+        "description": "obs_shards.backend.config.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "obs_shards.backend.config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "obs_shards.backend.config.urls",
+        "description": "obs_shards.backend.config.urls",
+        "peekOfCode": "urlpatterns = [\n    #   Django ADMIN\n    path('admin/', admin.site.urls),\n    #   SHARDS\n    path('api/', include('apps.notes.urls')),\n]",
+        "detail": "obs_shards.backend.config.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "obs_shards.backend.config.wsgi",
+        "description": "obs_shards.backend.config.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "obs_shards.backend.config.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "run",
+        "kind": 2,
+        "importPath": "obs_shards.backend.scripts.export_vault",
+        "description": "obs_shards.backend.scripts.export_vault",
+        "peekOfCode": "def run():\n    EXPORT_PATH.mkdir(parents=True, exist_ok=True)\n    for note in Note.objects.all():\n        frontmatter = {\n            \"title\": note.title,\n            \"doctype\": note.doctype,\n            \"date\": note.date.isoformat() if note.date else None,\n            **note.metadata,\n        }\n        content = f\"\"\"---",
+        "detail": "obs_shards.backend.scripts.export_vault",
+        "documentation": {}
+    },
+    {
+        "label": "EXPORT_PATH",
+        "kind": 5,
+        "importPath": "obs_shards.backend.scripts.export_vault",
+        "description": "obs_shards.backend.scripts.export_vault",
+        "peekOfCode": "EXPORT_PATH = Path(\"/vault_export\")\ndef run():\n    EXPORT_PATH.mkdir(parents=True, exist_ok=True)\n    for note in Note.objects.all():\n        frontmatter = {\n            \"title\": note.title,\n            \"doctype\": note.doctype,\n            \"date\": note.date.isoformat() if note.date else None,\n            **note.metadata,\n        }",
+        "detail": "obs_shards.backend.scripts.export_vault",
+        "documentation": {}
+    },
+    {
+        "label": "parse_markdown",
+        "kind": 2,
+        "importPath": "obs_shards.backend.scripts.import_vault",
+        "description": "obs_shards.backend.scripts.import_vault",
+        "peekOfCode": "def parse_markdown(file_path: Path) -> tuple[str, str, dict, str, str | None]:\n    \"\"\"\n    Parse a markdown file and extract metadata, title, content, doctype and date.\n    The markdown file is expected to have a YAML frontmatter section, separated by\n    a \"---\" separator. The frontmatter section is parsed into a dictionary and\n    returned as the metadata.\n    The title is extracted from the frontmatter section, and defaults to the file name\n    without extension if not found.\n    The doctype is extracted from the frontmatter section, and defaults to \"note\" if not found.\n    The date is extracted from the frontmatter section, and defaults to None if not found.",
+        "detail": "obs_shards.backend.scripts.import_vault",
+        "documentation": {}
+    },
+    {
+        "label": "run",
+        "kind": 2,
+        "importPath": "obs_shards.backend.scripts.import_vault",
+        "description": "obs_shards.backend.scripts.import_vault",
+        "peekOfCode": "def run():\n    \"\"\"\n    Import markdown files from the Vault directory into the database.\n    Iterate over markdown files in the Vault directory, parse the YAML frontmatter and\n    extract the title, content, metadata, doctype and date. Then, use Django's ORM\n    to update or create a Note instance with the extracted data. The created and\n    updated counts are printed at the end of the function.\n    :return: None\n    \"\"\"\n    created, updated = 0, 0",
+        "detail": "obs_shards.backend.scripts.import_vault",
+        "documentation": {}
+    },
+    {
+        "label": "VAULT_PATH",
+        "kind": 5,
+        "importPath": "obs_shards.backend.scripts.import_vault",
+        "description": "obs_shards.backend.scripts.import_vault",
+        "peekOfCode": "VAULT_PATH = Path(\"/vault\")\ndef parse_markdown(file_path: Path) -> tuple[str, str, dict, str, str | None]:\n    \"\"\"\n    Parse a markdown file and extract metadata, title, content, doctype and date.\n    The markdown file is expected to have a YAML frontmatter section, separated by\n    a \"---\" separator. The frontmatter section is parsed into a dictionary and\n    returned as the metadata.\n    The title is extracted from the frontmatter section, and defaults to the file name\n    without extension if not found.\n    The doctype is extracted from the frontmatter section, and defaults to \"note\" if not found.",
+        "detail": "obs_shards.backend.scripts.import_vault",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "obs_shards.backend.manage",
+        "description": "obs_shards.backend.manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "obs_shards.backend.manage",
+        "documentation": {}
+    }
+]
