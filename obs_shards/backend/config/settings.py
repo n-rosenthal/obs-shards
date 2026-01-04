@@ -14,6 +14,9 @@ import os
 from pathlib import Path
 import dj_database_url
 
+#   Celery, async tasks
+from celery.schedules import crontab
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -30,7 +33,6 @@ ALLOWED_HOSTS = os.getenv("ALLOWED_HOSTS", "").split(",")
 
 
 # Application definition
-
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -45,6 +47,47 @@ INSTALLED_APPS = [
     #   SHARDS
     'apps.notes',
 ]
+
+
+
+#   ------------------------------------------------------
+#   Environment for Obsidian
+#   ------------------------------------------------------
+VAULT_PATH = os.getenv("VAULT_PATH", "/vault")
+
+
+#   ------------------------------------------------------
+#   Celery, celery beat e redis
+#   ------------------------------------------------------
+#   Broker & backend
+CELERY_BROKER_URL           = os.getenv("CELERY_BROKER_URL", "redis://redis:6379/0")
+CELERY_RESULT_BACKEND       = CELERY_BROKER_URL
+
+#   Serialization
+CELERY_ACCEPT_CONTENT       = ["json"]
+CELERY_TASK_SERIALIZER      = "json"
+CELERY_RESULT_SERIALIZER    = "json"
+
+#   Timezone, internationalization (for Celery)
+CELERY_TIMEZONE = "America/Sao_Paulo"
+USE_TZ          = True
+
+#   Scheduling for async tasks
+CELERY_BEAT_SCHEDULE = {
+    #   sync the Obsidian vault with the database every hour
+    "sync-obsidian-vault": {
+        "task": "apps.notes.tasks.sync_vault",
+        "schedule": crontab(minute=0, hour="*"),
+    },
+    
+    #   sync the Obsidian vault with the database every day at 00:00
+    "sync-obsidian-vault-daily": {
+        "task": "apps.notes.tasks.sync_vault",
+        "schedule": crontab(minute=0, hour=0),
+    }
+}
+
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -96,28 +139,28 @@ AUTH_PASSWORD_VALIDATORS = [
     {
         'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
     },
+    
     {
         'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
     },
+    
     {
         'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
     },
+    
     {
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
 
+#   ------------------------------------------------------
+#   Internationalization
+#   ------------------------------------------------------
 
-# Internationalization
-# https://docs.djangoproject.com/en/dev/topics/i18n/
-
-LANGUAGE_CODE = 'en-us'
-
-TIME_ZONE = 'UTC'
-
-USE_I18N = True
-
-USE_TZ = True
+LANGUAGE_CODE   = 'pt-br'
+TIME_ZONE       = 'America/Sao_Paulo'
+USE_I18N        = True
+USE_TZ          = True
 
 
 # Static files (CSS, JavaScript, Images)

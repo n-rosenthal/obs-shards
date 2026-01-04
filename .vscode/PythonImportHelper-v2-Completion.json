@@ -33,11 +33,108 @@
         "documentation": {}
     },
     {
+        "label": "hashlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "hashlib",
+        "description": "hashlib",
+        "detail": "hashlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "django.utils",
+        "description": "django.utils",
+        "isExtraImport": true,
+        "detail": "django.utils",
+        "documentation": {}
+    },
+    {
+        "label": "Note",
+        "importPath": "apps.notes.models",
+        "description": "apps.notes.models",
+        "isExtraImport": true,
+        "detail": "apps.notes.models",
+        "documentation": {}
+    },
+    {
         "label": "serializers",
         "importPath": "rest_framework",
         "description": "rest_framework",
         "isExtraImport": true,
         "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "shared_task",
+        "importPath": "celery",
+        "description": "celery",
+        "isExtraImport": true,
+        "detail": "celery",
+        "documentation": {}
+    },
+    {
+        "label": "Celery",
+        "importPath": "celery",
+        "description": "celery",
+        "isExtraImport": true,
+        "detail": "celery",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "VaultImportService",
+        "importPath": "apps.notes.services.vault_service",
+        "description": "apps.notes.services.vault_service",
+        "isExtraImport": true,
+        "detail": "apps.notes.services.vault_service",
+        "documentation": {}
+    },
+    {
+        "label": "VaultExportService",
+        "importPath": "apps.notes.services.vault_service",
+        "description": "apps.notes.services.vault_service",
+        "isExtraImport": true,
+        "detail": "apps.notes.services.vault_service",
+        "documentation": {}
+    },
+    {
+        "label": "VaultExportService",
+        "importPath": "apps.notes.services.vault_service",
+        "description": "apps.notes.services.vault_service",
+        "isExtraImport": true,
+        "detail": "apps.notes.services.vault_service",
+        "documentation": {}
+    },
+    {
+        "label": "VaultImportService",
+        "importPath": "apps.notes.services.vault_service",
+        "description": "apps.notes.services.vault_service",
+        "isExtraImport": true,
+        "detail": "apps.notes.services.vault_service",
         "documentation": {}
     },
     {
@@ -98,36 +195,20 @@
         "documentation": {}
     },
     {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
         "label": "dj_database_url",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "dj_database_url",
         "description": "dj_database_url",
         "detail": "dj_database_url",
+        "documentation": {}
+    },
+    {
+        "label": "crontab",
+        "importPath": "celery.schedules",
+        "description": "celery.schedules",
+        "isExtraImport": true,
+        "detail": "celery.schedules",
         "documentation": {}
     },
     {
@@ -163,36 +244,12 @@
         "documentation": {}
     },
     {
-        "label": "yaml",
+        "label": "django",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "yaml",
-        "description": "yaml",
-        "detail": "yaml",
-        "documentation": {}
-    },
-    {
-        "label": "Note",
-        "importPath": "apps.notes.models",
-        "description": "apps.notes.models",
-        "isExtraImport": true,
-        "detail": "apps.notes.models",
-        "documentation": {}
-    },
-    {
-        "label": "Note",
-        "importPath": "apps.notes.models",
-        "description": "apps.notes.models",
-        "isExtraImport": true,
-        "detail": "apps.notes.models",
-        "documentation": {}
-    },
-    {
-        "label": "now",
-        "importPath": "django.utils.timezone",
-        "description": "django.utils.timezone",
-        "isExtraImport": true,
-        "detail": "django.utils.timezone",
+        "importPath": "django",
+        "description": "django",
+        "detail": "django",
         "documentation": {}
     },
     {
@@ -211,6 +268,33 @@
         "description": "obs_shards.backend.apps.notes.migrations.0001_initial",
         "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = []\n    operations = [\n        migrations.CreateModel(\n            name=\"Note\",\n            fields=[\n                (\n                    \"id\",\n                    models.UUIDField(",
         "detail": "obs_shards.backend.apps.notes.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "VaultImportService",
+        "kind": 6,
+        "importPath": "obs_shards.backend.apps.notes.services.vault_service",
+        "description": "obs_shards.backend.apps.notes.services.vault_service",
+        "peekOfCode": "class VaultImportService:\n    def __init__(self, vault_path: str):\n        self.vault_path = Path(vault_path)\n    def run(self) -> dict:\n        created = 0\n        updated = 0\n        skipped = 0\n        for md_file in self.vault_path.rglob(\"*.md\"):\n            content = md_file.read_text(encoding=\"utf-8\")\n            content_hash = compute_hash(content)",
+        "detail": "obs_shards.backend.apps.notes.services.vault_service",
+        "documentation": {}
+    },
+    {
+        "label": "VaultExportService",
+        "kind": 6,
+        "importPath": "obs_shards.backend.apps.notes.services.vault_service",
+        "description": "obs_shards.backend.apps.notes.services.vault_service",
+        "peekOfCode": "class VaultExportService:\n    def __init__(self, vault_path: str):\n        self.vault_path = Path(vault_path)\n    def run(self) -> dict:\n        exported = 0\n        skipped = 0\n        for note in Note.objects.all():\n            vault_path = note.metadata.get(\"vault_path\")\n            if not vault_path:\n                skipped += 1",
+        "detail": "obs_shards.backend.apps.notes.services.vault_service",
+        "documentation": {}
+    },
+    {
+        "label": "compute_hash",
+        "kind": 2,
+        "importPath": "obs_shards.backend.apps.notes.services.vault_service",
+        "description": "obs_shards.backend.apps.notes.services.vault_service",
+        "peekOfCode": "def compute_hash(content: str) -> str:\n    \"\"\"\n        Computes the SHA-256 hash for a given `content` string.\n        params:\n        ---\n            content (str): The content to be hashed.\n        returns:\n        ---\n            str: The SHA-256 hash of the content.\n    \"\"\"",
+        "detail": "obs_shards.backend.apps.notes.services.vault_service",
         "documentation": {}
     },
     {
@@ -238,6 +322,15 @@
         "description": "obs_shards.backend.apps.notes.serializers",
         "peekOfCode": "class NoteCreateUpdateSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Note\n        fields = [\n            \"title\",\n            \"content\",\n            \"doctype\",\n            \"date\",\n            \"metadata\",\n        ]",
         "detail": "obs_shards.backend.apps.notes.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "sync_vault",
+        "kind": 2,
+        "importPath": "obs_shards.backend.apps.notes.tasks",
+        "description": "obs_shards.backend.apps.notes.tasks",
+        "peekOfCode": "def sync_vault(self):\n    \"\"\"\n    Sync the Obsidian vault in the `VAULT_PATH` directory with the database.\n    The task will first import all notes from the vault, then export all notes in the database to the vault.\n    The task will retry itself if any exceptions occur, with a backoff of 60 seconds.\n    Returns a dictionary containing the number of imported and exported notes.\n    \"\"\"\n    vault_path = settings.VAULT_PATH\n    importer = VaultImportService(vault_path)\n    exporter = VaultExportService(vault_path)",
+        "detail": "obs_shards.backend.apps.notes.tasks",
         "documentation": {}
     },
     {
@@ -274,6 +367,15 @@
         "description": "obs_shards.backend.config.asgi",
         "peekOfCode": "application = get_asgi_application()",
         "detail": "obs_shards.backend.config.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "obs_shards.backend.config.celery",
+        "description": "obs_shards.backend.config.celery",
+        "peekOfCode": "app = Celery(\"obsidian_shards\")\n#   Config itself from every setting in the (celery namespace of) Django settings\napp.config_from_object(\"django.conf:settings\", namespace=\"CELERY\")\n#   Autodiscover tasks\napp.autodiscover_tasks()",
+        "detail": "obs_shards.backend.config.celery",
         "documentation": {}
     },
     {
@@ -318,6 +420,33 @@
         "importPath": "obs_shards.backend.config.settings",
         "description": "obs_shards.backend.config.settings",
         "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'rest_framework',\n    'django_filters',\n    #   SHARDS",
+        "detail": "obs_shards.backend.config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "VAULT_PATH",
+        "kind": 5,
+        "importPath": "obs_shards.backend.config.settings",
+        "description": "obs_shards.backend.config.settings",
+        "peekOfCode": "VAULT_PATH = os.getenv(\"VAULT_PATH\", \"/vault\")\n#   ------------------------------------------------------\n#   Celery, celery beat e redis\n#   ------------------------------------------------------\n#   Broker & backend\nCELERY_BROKER_URL           = os.getenv(\"CELERY_BROKER_URL\", \"redis://redis:6379/0\")\nCELERY_RESULT_BACKEND       = CELERY_BROKER_URL\n#   Serialization\nCELERY_ACCEPT_CONTENT       = [\"json\"]\nCELERY_TASK_SERIALIZER      = \"json\"",
+        "detail": "obs_shards.backend.config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CELERY_TIMEZONE",
+        "kind": 5,
+        "importPath": "obs_shards.backend.config.settings",
+        "description": "obs_shards.backend.config.settings",
+        "peekOfCode": "CELERY_TIMEZONE = \"America/Sao_Paulo\"\nUSE_TZ          = True\n#   Scheduling for async tasks\nCELERY_BEAT_SCHEDULE = {\n    #   sync the Obsidian vault with the database every hour\n    \"sync-obsidian-vault\": {\n        \"task\": \"apps.notes.tasks.sync_vault\",\n        \"schedule\": crontab(minute=0, hour=\"*\"),\n    },\n    #   sync the Obsidian vault with the database every day at 00:00",
+        "detail": "obs_shards.backend.config.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CELERY_BEAT_SCHEDULE",
+        "kind": 5,
+        "importPath": "obs_shards.backend.config.settings",
+        "description": "obs_shards.backend.config.settings",
+        "peekOfCode": "CELERY_BEAT_SCHEDULE = {\n    #   sync the Obsidian vault with the database every hour\n    \"sync-obsidian-vault\": {\n        \"task\": \"apps.notes.tasks.sync_vault\",\n        \"schedule\": crontab(minute=0, hour=\"*\"),\n    },\n    #   sync the Obsidian vault with the database every day at 00:00\n    \"sync-obsidian-vault-daily\": {\n        \"task\": \"apps.notes.tasks.sync_vault\",\n        \"schedule\": crontab(minute=0, hour=0),",
         "detail": "obs_shards.backend.config.settings",
         "documentation": {}
     },
@@ -376,42 +505,6 @@
         "documentation": {}
     },
     {
-        "label": "LANGUAGE_CODE",
-        "kind": 5,
-        "importPath": "obs_shards.backend.config.settings",
-        "description": "obs_shards.backend.config.settings",
-        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/dev/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/dev/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
-        "detail": "obs_shards.backend.config.settings",
-        "documentation": {}
-    },
-    {
-        "label": "TIME_ZONE",
-        "kind": 5,
-        "importPath": "obs_shards.backend.config.settings",
-        "description": "obs_shards.backend.config.settings",
-        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/dev/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/dev/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
-        "detail": "obs_shards.backend.config.settings",
-        "documentation": {}
-    },
-    {
-        "label": "USE_I18N",
-        "kind": 5,
-        "importPath": "obs_shards.backend.config.settings",
-        "description": "obs_shards.backend.config.settings",
-        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/dev/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/dev/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
-        "detail": "obs_shards.backend.config.settings",
-        "documentation": {}
-    },
-    {
-        "label": "USE_TZ",
-        "kind": 5,
-        "importPath": "obs_shards.backend.config.settings",
-        "description": "obs_shards.backend.config.settings",
-        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/dev/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/dev/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
-        "detail": "obs_shards.backend.config.settings",
-        "documentation": {}
-    },
-    {
         "label": "STATIC_URL",
         "kind": 5,
         "importPath": "obs_shards.backend.config.settings",
@@ -445,51 +538,6 @@
         "description": "obs_shards.backend.config.wsgi",
         "peekOfCode": "application = get_wsgi_application()",
         "detail": "obs_shards.backend.config.wsgi",
-        "documentation": {}
-    },
-    {
-        "label": "run",
-        "kind": 2,
-        "importPath": "obs_shards.backend.scripts.export_vault",
-        "description": "obs_shards.backend.scripts.export_vault",
-        "peekOfCode": "def run():\n    EXPORT_PATH.mkdir(parents=True, exist_ok=True)\n    for note in Note.objects.all():\n        frontmatter = {\n            \"title\": note.title,\n            \"doctype\": note.doctype,\n            \"date\": note.date.isoformat() if note.date else None,\n            **note.metadata,\n        }\n        content = f\"\"\"---",
-        "detail": "obs_shards.backend.scripts.export_vault",
-        "documentation": {}
-    },
-    {
-        "label": "EXPORT_PATH",
-        "kind": 5,
-        "importPath": "obs_shards.backend.scripts.export_vault",
-        "description": "obs_shards.backend.scripts.export_vault",
-        "peekOfCode": "EXPORT_PATH = Path(\"/vault_export\")\ndef run():\n    EXPORT_PATH.mkdir(parents=True, exist_ok=True)\n    for note in Note.objects.all():\n        frontmatter = {\n            \"title\": note.title,\n            \"doctype\": note.doctype,\n            \"date\": note.date.isoformat() if note.date else None,\n            **note.metadata,\n        }",
-        "detail": "obs_shards.backend.scripts.export_vault",
-        "documentation": {}
-    },
-    {
-        "label": "parse_markdown",
-        "kind": 2,
-        "importPath": "obs_shards.backend.scripts.import_vault",
-        "description": "obs_shards.backend.scripts.import_vault",
-        "peekOfCode": "def parse_markdown(file_path: Path) -> tuple[str, str, dict, str, str | None]:\n    \"\"\"\n    Parse a markdown file and extract metadata, title, content, doctype and date.\n    The markdown file is expected to have a YAML frontmatter section, separated by\n    a \"---\" separator. The frontmatter section is parsed into a dictionary and\n    returned as the metadata.\n    The title is extracted from the frontmatter section, and defaults to the file name\n    without extension if not found.\n    The doctype is extracted from the frontmatter section, and defaults to \"note\" if not found.\n    The date is extracted from the frontmatter section, and defaults to None if not found.",
-        "detail": "obs_shards.backend.scripts.import_vault",
-        "documentation": {}
-    },
-    {
-        "label": "run",
-        "kind": 2,
-        "importPath": "obs_shards.backend.scripts.import_vault",
-        "description": "obs_shards.backend.scripts.import_vault",
-        "peekOfCode": "def run():\n    \"\"\"\n    Import markdown files from the Vault directory into the database.\n    Iterate over markdown files in the Vault directory, parse the YAML frontmatter and\n    extract the title, content, metadata, doctype and date. Then, use Django's ORM\n    to update or create a Note instance with the extracted data. The created and\n    updated counts are printed at the end of the function.\n    :return: None\n    \"\"\"\n    created, updated = 0, 0",
-        "detail": "obs_shards.backend.scripts.import_vault",
-        "documentation": {}
-    },
-    {
-        "label": "VAULT_PATH",
-        "kind": 5,
-        "importPath": "obs_shards.backend.scripts.import_vault",
-        "description": "obs_shards.backend.scripts.import_vault",
-        "peekOfCode": "VAULT_PATH = Path(\"/vault\")\ndef parse_markdown(file_path: Path) -> tuple[str, str, dict, str, str | None]:\n    \"\"\"\n    Parse a markdown file and extract metadata, title, content, doctype and date.\n    The markdown file is expected to have a YAML frontmatter section, separated by\n    a \"---\" separator. The frontmatter section is parsed into a dictionary and\n    returned as the metadata.\n    The title is extracted from the frontmatter section, and defaults to the file name\n    without extension if not found.\n    The doctype is extracted from the frontmatter section, and defaults to \"note\" if not found.",
-        "detail": "obs_shards.backend.scripts.import_vault",
         "documentation": {}
     },
     {
