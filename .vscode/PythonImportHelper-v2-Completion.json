@@ -42,6 +42,89 @@
         "documentation": {}
     },
     {
+        "label": "yaml",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "yaml",
+        "description": "yaml",
+        "detail": "yaml",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "redis",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "redis",
+        "description": "redis",
+        "detail": "redis",
+        "documentation": {}
+    },
+    {
+        "label": "VaultImportService",
+        "importPath": "apps.notes.services.vault_service",
+        "description": "apps.notes.services.vault_service",
+        "isExtraImport": true,
+        "detail": "apps.notes.services.vault_service",
+        "documentation": {}
+    },
+    {
+        "label": "VaultExportService",
+        "importPath": "apps.notes.services.vault_service",
+        "description": "apps.notes.services.vault_service",
+        "isExtraImport": true,
+        "detail": "apps.notes.services.vault_service",
+        "documentation": {}
+    },
+    {
+        "label": "VaultImportService",
+        "importPath": "apps.notes.services.vault_service",
+        "description": "apps.notes.services.vault_service",
+        "isExtraImport": true,
+        "detail": "apps.notes.services.vault_service",
+        "documentation": {}
+    },
+    {
+        "label": "VaultExportService",
+        "importPath": "apps.notes.services.vault_service",
+        "description": "apps.notes.services.vault_service",
+        "isExtraImport": true,
+        "detail": "apps.notes.services.vault_service",
+        "documentation": {}
+    },
+    {
+        "label": "VaultExportService",
+        "importPath": "apps.notes.services.vault_service",
+        "description": "apps.notes.services.vault_service",
+        "isExtraImport": true,
+        "detail": "apps.notes.services.vault_service",
+        "documentation": {}
+    },
+    {
+        "label": "VaultImportService",
+        "importPath": "apps.notes.services.vault_service",
+        "description": "apps.notes.services.vault_service",
+        "isExtraImport": true,
+        "detail": "apps.notes.services.vault_service",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
         "label": "Path",
         "importPath": "pathlib",
         "description": "pathlib",
@@ -55,14 +138,6 @@
         "description": "pathlib",
         "isExtraImport": true,
         "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "timezone",
-        "importPath": "django.utils",
-        "description": "django.utils",
-        "isExtraImport": true,
-        "detail": "django.utils",
         "documentation": {}
     },
     {
@@ -71,6 +146,54 @@
         "description": "apps.notes.models",
         "isExtraImport": true,
         "detail": "apps.notes.models",
+        "documentation": {}
+    },
+    {
+        "label": "Note",
+        "importPath": "apps.notes.models",
+        "description": "apps.notes.models",
+        "isExtraImport": true,
+        "detail": "apps.notes.models",
+        "documentation": {}
+    },
+    {
+        "label": "MarkdownParser",
+        "importPath": "apps.notes.services.markdown_parser",
+        "description": "apps.notes.services.markdown_parser",
+        "isExtraImport": true,
+        "detail": "apps.notes.services.markdown_parser",
+        "documentation": {}
+    },
+    {
+        "label": "ConflictDetector",
+        "importPath": "apps.notes.services.conflict_detector",
+        "description": "apps.notes.services.conflict_detector",
+        "isExtraImport": true,
+        "detail": "apps.notes.services.conflict_detector",
+        "documentation": {}
+    },
+    {
+        "label": "VaultExportService",
+        "importPath": "apps.notes.services.vault_exporter",
+        "description": "apps.notes.services.vault_exporter",
+        "isExtraImport": true,
+        "detail": "apps.notes.services.vault_exporter",
+        "documentation": {}
+    },
+    {
+        "label": "VaultImportService",
+        "importPath": "apps.notes.services.vault_importer",
+        "description": "apps.notes.services.vault_importer",
+        "isExtraImport": true,
+        "detail": "apps.notes.services.vault_importer",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "django.utils",
+        "description": "django.utils",
+        "isExtraImport": true,
+        "detail": "django.utils",
         "documentation": {}
     },
     {
@@ -103,38 +226,6 @@
         "description": "django.conf",
         "isExtraImport": true,
         "detail": "django.conf",
-        "documentation": {}
-    },
-    {
-        "label": "VaultImportService",
-        "importPath": "apps.notes.services.vault_service",
-        "description": "apps.notes.services.vault_service",
-        "isExtraImport": true,
-        "detail": "apps.notes.services.vault_service",
-        "documentation": {}
-    },
-    {
-        "label": "VaultExportService",
-        "importPath": "apps.notes.services.vault_service",
-        "description": "apps.notes.services.vault_service",
-        "isExtraImport": true,
-        "detail": "apps.notes.services.vault_service",
-        "documentation": {}
-    },
-    {
-        "label": "VaultExportService",
-        "importPath": "apps.notes.services.vault_service",
-        "description": "apps.notes.services.vault_service",
-        "isExtraImport": true,
-        "detail": "apps.notes.services.vault_service",
-        "documentation": {}
-    },
-    {
-        "label": "VaultImportService",
-        "importPath": "apps.notes.services.vault_service",
-        "description": "apps.notes.services.vault_service",
-        "isExtraImport": true,
-        "detail": "apps.notes.services.vault_service",
         "documentation": {}
     },
     {
@@ -271,30 +362,84 @@
         "documentation": {}
     },
     {
-        "label": "VaultImportService",
+        "label": "ConflictDetector",
         "kind": 6,
-        "importPath": "obs_shards.backend.apps.notes.services.vault_service",
-        "description": "obs_shards.backend.apps.notes.services.vault_service",
-        "peekOfCode": "class VaultImportService:\n    def __init__(self, vault_path: str):\n        self.vault_path = Path(vault_path)\n    def run(self) -> dict:\n        created = 0\n        updated = 0\n        skipped = 0\n        for md_file in self.vault_path.rglob(\"*.md\"):\n            content = md_file.read_text(encoding=\"utf-8\")\n            content_hash = compute_hash(content)",
-        "detail": "obs_shards.backend.apps.notes.services.vault_service",
+        "importPath": "obs_shards.backend.apps.notes.services.conflict_detector",
+        "description": "obs_shards.backend.apps.notes.services.conflict_detector",
+        "peekOfCode": "class ConflictDetector:\n    @staticmethod\n    def check_import_conflict(note, parsed) -> bool:\n        if note.last_synced_hash is None:\n            return False\n        db_changed = note.content_hash != note.last_synced_hash\n        file_changed = parsed.content_hash != note.last_synced_hash\n        return db_changed and file_changed",
+        "detail": "obs_shards.backend.apps.notes.services.conflict_detector",
+        "documentation": {}
+    },
+    {
+        "label": "MarkdownParseResult",
+        "kind": 6,
+        "importPath": "obs_shards.backend.apps.notes.services.markdown_parser",
+        "description": "obs_shards.backend.apps.notes.services.markdown_parser",
+        "peekOfCode": "class MarkdownParseResult:\n    def __init__(self, metadata: dict, content: str, content_hash: str) -> None:\n        \"\"\"\n        Initializes a MarkdownParseResult object.\n        :param metadata: dict of frontmatter from the markdown file\n        :param content: str of the markdown content\n        :param content_hash: str of the SHA-256 hash of the content\n        \"\"\"\n        self.metadata = metadata\n        self.content = content",
+        "detail": "obs_shards.backend.apps.notes.services.markdown_parser",
+        "documentation": {}
+    },
+    {
+        "label": "MarkdownParser",
+        "kind": 6,
+        "importPath": "obs_shards.backend.apps.notes.services.markdown_parser",
+        "description": "obs_shards.backend.apps.notes.services.markdown_parser",
+        "peekOfCode": "class MarkdownParser:\n    \"\"\"\n    Parser for Markdown files\n    \"\"\"\n    @staticmethod\n    def parse(text: str) -> MarkdownParseResult:\n        \"\"\"\n        Parse a markdown string into a MarkdownParseResult object.\n        The markdown string is parsed into its frontmatter and content parts.\n        If the markdown string starts with the FRONTMATTER_DELIMITER string,",
+        "detail": "obs_shards.backend.apps.notes.services.markdown_parser",
+        "documentation": {}
+    },
+    {
+        "label": "FRONTMATTER_DELIMITER",
+        "kind": 5,
+        "importPath": "obs_shards.backend.apps.notes.services.markdown_parser",
+        "description": "obs_shards.backend.apps.notes.services.markdown_parser",
+        "peekOfCode": "FRONTMATTER_DELIMITER = \"---\"\nclass MarkdownParseResult:\n    def __init__(self, metadata: dict, content: str, content_hash: str) -> None:\n        \"\"\"\n        Initializes a MarkdownParseResult object.\n        :param metadata: dict of frontmatter from the markdown file\n        :param content: str of the markdown content\n        :param content_hash: str of the SHA-256 hash of the content\n        \"\"\"\n        self.metadata = metadata",
+        "detail": "obs_shards.backend.apps.notes.services.markdown_parser",
+        "documentation": {}
+    },
+    {
+        "label": "DistributedLock",
+        "kind": 6,
+        "importPath": "obs_shards.backend.apps.notes.services.sync_service",
+        "description": "obs_shards.backend.apps.notes.services.sync_service",
+        "peekOfCode": "class DistributedLock:\n    \"\"\"\n    A distributed lock implementation using Redis.\n    \"\"\"\n    def __init__(self, key: str, timeout=300):\n        \"\"\"\n        Initialize a DistributedLock instance.\n        :param key: str, the key for the lock\n        :param timeout: int, the timeout for the lock in seconds\n        \"\"\"",
+        "detail": "obs_shards.backend.apps.notes.services.sync_service",
+        "documentation": {}
+    },
+    {
+        "label": "sync_vault",
+        "kind": 2,
+        "importPath": "obs_shards.backend.apps.notes.services.sync_service",
+        "description": "obs_shards.backend.apps.notes.services.sync_service",
+        "peekOfCode": "def sync_vault():\n    lock = DistributedLock(\"vault_sync_lock\")\n    if not lock.acquire():\n        return {\"status\": \"skipped\", \"reason\": \"lock_active\"}\n    try:\n        import_result = VaultImportService(\"/vault\").run()\n        export_result = VaultExportService(\"/vault\").run()\n        return {\n            \"import\": import_result,\n            \"export\": export_result,",
+        "detail": "obs_shards.backend.apps.notes.services.sync_service",
         "documentation": {}
     },
     {
         "label": "VaultExportService",
         "kind": 6,
-        "importPath": "obs_shards.backend.apps.notes.services.vault_service",
-        "description": "obs_shards.backend.apps.notes.services.vault_service",
-        "peekOfCode": "class VaultExportService:\n    def __init__(self, vault_path: str):\n        self.vault_path = Path(vault_path)\n    def run(self) -> dict:\n        exported = 0\n        skipped = 0\n        for note in Note.objects.all():\n            vault_path = note.metadata.get(\"vault_path\")\n            if not vault_path:\n                skipped += 1",
-        "detail": "obs_shards.backend.apps.notes.services.vault_service",
+        "importPath": "obs_shards.backend.apps.notes.services.vault_exporter",
+        "description": "obs_shards.backend.apps.notes.services.vault_exporter",
+        "peekOfCode": "class VaultExportService:\n    def __init__(self, vault_path: str):\n        self.vault = Path(vault_path)\n    def run(self):\n        exported = 0\n        for note in Note.objects.filter(conflict=False):\n            if note.content_hash == note.last_synced_hash:\n                continue\n            path = self.vault / note.external_id\n            path.parent.mkdir(parents=True, exist_ok=True)",
+        "detail": "obs_shards.backend.apps.notes.services.vault_exporter",
         "documentation": {}
     },
     {
-        "label": "compute_hash",
-        "kind": 2,
-        "importPath": "obs_shards.backend.apps.notes.services.vault_service",
-        "description": "obs_shards.backend.apps.notes.services.vault_service",
-        "peekOfCode": "def compute_hash(content: str) -> str:\n    \"\"\"\n        Computes the SHA-256 hash for a given `content` string.\n        params:\n        ---\n            content (str): The content to be hashed.\n        returns:\n        ---\n            str: The SHA-256 hash of the content.\n    \"\"\"",
-        "detail": "obs_shards.backend.apps.notes.services.vault_service",
+        "label": "VaultImportService",
+        "kind": 6,
+        "importPath": "obs_shards.backend.apps.notes.services.vault_importer",
+        "description": "obs_shards.backend.apps.notes.services.vault_importer",
+        "peekOfCode": "class VaultImportService:\n    \"\"\"\n    Obsidian Vault import service\n    \"\"\"\n    def __init__(self, vault_path: str):\n        \"\"\"\n        Initializes a VaultImportService instance.\n        :param vault_path: str, the path to the Obsidian vault to be imported\n        \"\"\"\n        self.vault = Path(vault_path)",
+        "detail": "obs_shards.backend.apps.notes.services.vault_importer",
+        "documentation": {}
+    },
+    {
+        "label": "VaultSyncService",
+        "kind": 6,
+        "importPath": "obs_shards.backend.apps.notes.services.vault_sync_service",
+        "description": "obs_shards.backend.apps.notes.services.vault_sync_service",
+        "peekOfCode": "class VaultSyncService:\n    def __init__(self, vault_path):\n        self.vault_path = vault_path\n    def run(self):\n        import_result = VaultImportService(self.vault_path).run()\n        export_result = VaultExportService(self.vault_path).run()\n        return {\n            \"import\": import_result,\n            \"export\": export_result\n        }",
+        "detail": "obs_shards.backend.apps.notes.services.vault_sync_service",
         "documentation": {}
     },
     {
@@ -302,7 +447,7 @@
         "kind": 6,
         "importPath": "obs_shards.backend.apps.notes.models",
         "description": "obs_shards.backend.apps.notes.models",
-        "peekOfCode": "class Note(models.Model):\n    \"\"\"\n        `Note` model\n        Representation of a `.md` note file.\n    \"\"\"\n    class NoteType(models.TextChoices):\n        \"\"\"\n            `NoteType` enumerated type\n            Possible values for the `doctype` field in a `Note`\n        \"\"\"",
+        "peekOfCode": "class Note(models.Model):\n    \"\"\"\n    Representation of a `.md` note file synchronized with a vault.\n    \"\"\"\n    # ───────────────────────────────\n    # Enums\n    # ───────────────────────────────\n    class NoteType(models.TextChoices):\n        STUDY   = \"study\", \"Study\"\n        JOURNAL = \"journal\", \"Journal\"",
         "detail": "obs_shards.backend.apps.notes.models",
         "documentation": {}
     },
