@@ -33,6 +33,38 @@
         "documentation": {}
     },
     {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "hashlib",
         "kind": 6,
         "isExtraImport": true,
@@ -205,6 +237,30 @@
         "documentation": {}
     },
     {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
         "label": "shared_task",
         "importPath": "celery",
         "description": "celery",
@@ -229,11 +285,51 @@
         "documentation": {}
     },
     {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
         "label": "DefaultRouter",
         "importPath": "rest_framework.routers",
         "description": "rest_framework.routers",
         "isExtraImport": true,
         "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "ModelViewSet",
+        "importPath": "rest_framework.viewsets",
+        "description": "rest_framework.viewsets",
+        "isExtraImport": true,
+        "detail": "rest_framework.viewsets",
+        "documentation": {}
+    },
+    {
+        "label": "ModelViewSet",
+        "importPath": "rest_framework.viewsets",
+        "description": "rest_framework.viewsets",
+        "isExtraImport": true,
+        "detail": "rest_framework.viewsets",
+        "documentation": {}
+    },
+    {
+        "label": "ModelViewSet",
+        "importPath": "rest_framework.viewsets",
+        "description": "rest_framework.viewsets",
+        "isExtraImport": true,
+        "detail": "rest_framework.viewsets",
         "documentation": {}
     },
     {
@@ -266,6 +362,86 @@
         "description": "django_filters.rest_framework",
         "isExtraImport": true,
         "detail": "django_filters.rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "VectorField",
+        "importPath": "pgvector.django",
+        "description": "pgvector.django",
+        "isExtraImport": true,
+        "detail": "pgvector.django",
+        "documentation": {}
+    },
+    {
+        "label": "BaseEntity",
+        "importPath": "BaseEntity",
+        "description": "BaseEntity",
+        "isExtraImport": true,
+        "detail": "BaseEntity",
+        "documentation": {}
+    },
+    {
+        "label": "BaseEntity",
+        "importPath": "BaseEntity",
+        "description": "BaseEntity",
+        "isExtraImport": true,
+        "detail": "BaseEntity",
+        "documentation": {}
+    },
+    {
+        "label": "BaseEntity",
+        "importPath": "BaseEntity",
+        "description": "BaseEntity",
+        "isExtraImport": true,
+        "detail": "BaseEntity",
+        "documentation": {}
+    },
+    {
+        "label": "TextReference",
+        "importPath": "TextReference",
+        "description": "TextReference",
+        "isExtraImport": true,
+        "detail": "TextReference",
+        "documentation": {}
+    },
+    {
+        "label": "Author",
+        "importPath": "Author",
+        "description": "Author",
+        "isExtraImport": true,
+        "detail": "Author",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "SentenceTransformer",
+        "importPath": "sentence_transformers",
+        "description": "sentence_transformers",
+        "isExtraImport": true,
+        "detail": "sentence_transformers",
+        "documentation": {}
+    },
+    {
+        "label": "OpenAI",
+        "importPath": "openai",
+        "description": "openai",
+        "isExtraImport": true,
+        "detail": "openai",
         "documentation": {}
     },
     {
@@ -350,6 +526,38 @@
         "importPath": "sys",
         "description": "sys",
         "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
         "documentation": {}
     },
     {
@@ -503,6 +711,159 @@
         "description": "obs_shards.backend.apps.notes.views",
         "peekOfCode": "class NoteViewSet(ModelViewSet):\n    \"\"\"\n    Viewset for the `Note` model\n    \"\"\"\n    #   Queryset for all the notes\n    queryset = Note.objects.all()\n    #   filters for the backend\n    filter_backends = [\n        DjangoFilterBackend,\n        SearchFilter,",
         "detail": "obs_shards.backend.apps.notes.views",
+        "documentation": {}
+    },
+    {
+        "label": "Activity",
+        "kind": 6,
+        "importPath": "obs_shards.backend.apps.registers.models.Activity",
+        "description": "obs_shards.backend.apps.registers.models.Activity",
+        "peekOfCode": "class Activity(BaseEntity):\n    category = models.CharField(max_length=120)\n    title = models.CharField(max_length=500)\n    body = models.TextField()\n    #   semantic search over activities\n    embedding = VectorField(dimensions=1536, null=True, blank=True)\n    activity_date = models.DateField()\n    start_time = models.TimeField(null=True, blank=True)\n    end_time = models.TimeField(null=True, blank=True)\n    duration = models.IntegerField(null=True, blank=True)",
+        "detail": "obs_shards.backend.apps.registers.models.Activity",
+        "documentation": {}
+    },
+    {
+        "label": "ReadingActivity",
+        "kind": 6,
+        "importPath": "obs_shards.backend.apps.registers.models.Activity",
+        "description": "obs_shards.backend.apps.registers.models.Activity",
+        "peekOfCode": "class ReadingActivity(Activity):\n    text = models.ForeignKey(\n        TextReference,\n        on_delete=models.CASCADE,\n        related_name=\"reading_sessions\"\n    )\n    pages_initial = models.IntegerField()\n    pages_end = models.IntegerField()\n    @property\n    def pages_count(self):",
+        "detail": "obs_shards.backend.apps.registers.models.Activity",
+        "documentation": {}
+    },
+    {
+        "label": "Author",
+        "kind": 6,
+        "importPath": "obs_shards.backend.apps.registers.models.Author",
+        "description": "obs_shards.backend.apps.registers.models.Author",
+        "peekOfCode": "class Author(BaseEntity):\n    first_name = models.CharField(max_length=120)\n    last_name = models.CharField(max_length=120)\n    birthyear = models.CharField(max_length=10, null=True, blank=True)\n    nationality = models.CharField(max_length=120, null=True, blank=True)\n    genres = models.JSONField(default=list, blank=True)\n    def save(self, *args, **kwargs):\n        self.type = \"reference/text-reference/author\"\n        super().save(*args, **kwargs)\n    def __str__(self):",
+        "detail": "obs_shards.backend.apps.registers.models.Author",
+        "documentation": {}
+    },
+    {
+        "label": "BaseEntity",
+        "kind": 6,
+        "importPath": "obs_shards.backend.apps.registers.models.BaseEntity",
+        "description": "obs_shards.backend.apps.registers.models.BaseEntity",
+        "peekOfCode": "class BaseEntity(models.Model):\n    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)\n    schema_version = models.CharField(max_length=10, default=\"v2\")\n    created_at = models.DateTimeField(auto_now_add=True)\n    updated_at = models.DateTimeField(auto_now=True)\n    type = models.CharField(max_length=100)\n    class Meta:\n        abstract = True",
+        "detail": "obs_shards.backend.apps.registers.models.BaseEntity",
+        "documentation": {}
+    },
+    {
+        "label": "TextType",
+        "kind": 6,
+        "importPath": "obs_shards.backend.apps.registers.models.TextReference",
+        "description": "obs_shards.backend.apps.registers.models.TextReference",
+        "peekOfCode": "class TextType(models.TextChoices):\n    BOOK = \"Book\"\n    ARTICLE = \"Article\"\n    LETTER = \"Letter\"\n    BLOGPOST = \"BlogPost\"\n    SOCIAL_VIDEO = \"SocialMediaVideo\"\n    JOURNAL = \"JournalEntry\"\nclass TextReference(BaseEntity):\n    type = models.CharField(max_length=50, choices=TextType.choices)\n    title = models.CharField(max_length=500)",
+        "detail": "obs_shards.backend.apps.registers.models.TextReference",
+        "documentation": {}
+    },
+    {
+        "label": "TextReference",
+        "kind": 6,
+        "importPath": "obs_shards.backend.apps.registers.models.TextReference",
+        "description": "obs_shards.backend.apps.registers.models.TextReference",
+        "peekOfCode": "class TextReference(BaseEntity):\n    type = models.CharField(max_length=50, choices=TextType.choices)\n    title = models.CharField(max_length=500)\n    year = models.IntegerField(null=True, blank=True)\n    authors = models.ManyToManyField(Author, related_name=\"texts\")\n    publisher = models.CharField(max_length=255, null=True, blank=True)\n    publisher_location = models.CharField(max_length=255, null=True, blank=True)\n    isbn = models.CharField(max_length=20, null=True, blank=True)\n    def save(self, *args, **kwargs):\n        self.type = \"reference/text-reference\"",
+        "detail": "obs_shards.backend.apps.registers.models.TextReference",
+        "documentation": {}
+    },
+    {
+        "label": "ActivitySerializer",
+        "kind": 6,
+        "importPath": "obs_shards.backend.apps.registers.serializers.Activity",
+        "description": "obs_shards.backend.apps.registers.serializers.Activity",
+        "peekOfCode": "class ActivitySerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Activity\n        fields = \"__all__\"\nclass ReadingActivitySerializer(serializers.ModelSerializer):\n    text = TextReferenceSerializer()\n    class Meta:\n        model = ReadingActivity\n        fields = \"__all__\"",
+        "detail": "obs_shards.backend.apps.registers.serializers.Activity",
+        "documentation": {}
+    },
+    {
+        "label": "ReadingActivitySerializer",
+        "kind": 6,
+        "importPath": "obs_shards.backend.apps.registers.serializers.Activity",
+        "description": "obs_shards.backend.apps.registers.serializers.Activity",
+        "peekOfCode": "class ReadingActivitySerializer(serializers.ModelSerializer):\n    text = TextReferenceSerializer()\n    class Meta:\n        model = ReadingActivity\n        fields = \"__all__\"",
+        "detail": "obs_shards.backend.apps.registers.serializers.Activity",
+        "documentation": {}
+    },
+    {
+        "label": "AuthorSerializer",
+        "kind": 6,
+        "importPath": "obs_shards.backend.apps.registers.serializers.Author",
+        "description": "obs_shards.backend.apps.registers.serializers.Author",
+        "peekOfCode": "class AuthorSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Author\n        fields = \"__all__\"",
+        "detail": "obs_shards.backend.apps.registers.serializers.Author",
+        "documentation": {}
+    },
+    {
+        "label": "TextReferenceSerializer",
+        "kind": 6,
+        "importPath": "obs_shards.backend.apps.registers.serializers.TextReference",
+        "description": "obs_shards.backend.apps.registers.serializers.TextReference",
+        "peekOfCode": "class TextReferenceSerializer(serializers.ModelSerializer):\n    authors = AuthorSerializer(many=True)\n    class Meta:\n        model = TextReference\n        fields = \"__all__\"",
+        "detail": "obs_shards.backend.apps.registers.serializers.TextReference",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingProvider",
+        "kind": 6,
+        "importPath": "obs_shards.backend.apps.registers.services.embeddings.base",
+        "description": "obs_shards.backend.apps.registers.services.embeddings.base",
+        "peekOfCode": "class EmbeddingProvider(ABC):\n    @abstractmethod\n    def generate_embedding(self, text: str) -> list[float]:\n        \"\"\"\n        Generate an embedding for the given text.\n        \"\"\"\n        raise NotImplementedError",
+        "detail": "obs_shards.backend.apps.registers.services.embeddings.base",
+        "documentation": {}
+    },
+    {
+        "label": "get_embedding_provider",
+        "kind": 2,
+        "importPath": "obs_shards.backend.apps.registers.services.embeddings.factory",
+        "description": "obs_shards.backend.apps.registers.services.embeddings.factory",
+        "peekOfCode": "def get_embedding_provider():\n    provider = settings.EMBEDDING_PROVIDER\n    if provider == \"openai\":\n        return OpenAIEmbeddingProvider()\n    if provider == \"local\":\n        return LocalEmbeddingProvider()\n    raise ValueError(\"Invalid embedding provider\")",
+        "detail": "obs_shards.backend.apps.registers.services.embeddings.factory",
+        "documentation": {}
+    },
+    {
+        "label": "LocalEmbeddingProvider",
+        "kind": 6,
+        "importPath": "obs_shards.backend.apps.registers.services.embeddings.local_provider",
+        "description": "obs_shards.backend.apps.registers.services.embeddings.local_provider",
+        "peekOfCode": "class LocalEmbeddingProvider(EmbeddingProvider):\n    def __init__(self):\n        self.model = SentenceTransformer(\"all-MiniLM-L6-v2\")\n    def generate_embedding(self, text: str) -> list[float]:\n        embedding = self.model.encode(text)\n        return embedding.tolist()",
+        "detail": "obs_shards.backend.apps.registers.services.embeddings.local_provider",
+        "documentation": {}
+    },
+    {
+        "label": "OpenAIEmbeddingProvider",
+        "kind": 6,
+        "importPath": "obs_shards.backend.apps.registers.services.embeddings.openai_provider",
+        "description": "obs_shards.backend.apps.registers.services.embeddings.openai_provider",
+        "peekOfCode": "class OpenAIEmbeddingProvider(EmbeddingProvider):\n    def __init__(self):\n        self.client = OpenAI(api_key=settings.OPENAI_API_KEY)\n    def generate_embedding(self, text: str) -> list[float]:\n        response = self.client.embeddings.create(\n            model=\"text-embedding-3-small\",\n            input=text\n        )\n        return response.data[0].embedding",
+        "detail": "obs_shards.backend.apps.registers.services.embeddings.openai_provider",
+        "documentation": {}
+    },
+    {
+        "label": "ActivityViewSet",
+        "kind": 6,
+        "importPath": "obs_shards.backend.apps.registers.views.Activity",
+        "description": "obs_shards.backend.apps.registers.views.Activity",
+        "peekOfCode": "class ActivityViewSet(ModelViewSet):\n    queryset = Activity.objects.all()\n    serializer_class = ActivitySerializer",
+        "detail": "obs_shards.backend.apps.registers.views.Activity",
+        "documentation": {}
+    },
+    {
+        "label": "ActivityViewSet",
+        "kind": 6,
+        "importPath": "obs_shards.backend.apps.registers.views.Author",
+        "description": "obs_shards.backend.apps.registers.views.Author",
+        "peekOfCode": "class ActivityViewSet(ModelViewSet):\n    queryset = Author.objects.all()\n    serializer_class = AuthorSerializer",
+        "detail": "obs_shards.backend.apps.registers.views.Author",
+        "documentation": {}
+    },
+    {
+        "label": "TextReferenceViewSet",
+        "kind": 6,
+        "importPath": "obs_shards.backend.apps.registers.views.TextReference",
+        "description": "obs_shards.backend.apps.registers.views.TextReference",
+        "peekOfCode": "class TextReferenceViewSet(ModelViewSet):\n    queryset = TextReference.objects.all()\n    serializer_class = TextReferenceSerializer",
+        "detail": "obs_shards.backend.apps.registers.views.TextReference",
         "documentation": {}
     },
     {
@@ -692,6 +1053,51 @@
         "description": "obs_shards.backend.manage",
         "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
         "detail": "obs_shards.backend.manage",
+        "documentation": {}
+    },
+    {
+        "label": "Predicate",
+        "kind": 6,
+        "importPath": "vault.registers.text-references.authors.Author",
+        "description": "vault.registers.text-references.authors.Author",
+        "peekOfCode": "class Predicate:\n    def __init__(self, fn: Callable, fn_name: str = None):\n        self.fn = fn;\n        if fn_name: \n            self._fn_name = fn_name\n    def __and__(self, other):\n        return Predicate(self.fn and other.fn)\n    def __or__(self, other):\n        return Predicate(self.fn or other.fn)\n    def __call__(self, *args):",
+        "detail": "vault.registers.text-references.authors.Author",
+        "documentation": {}
+    },
+    {
+        "label": "Author",
+        "kind": 6,
+        "importPath": "vault.registers.text-references.authors.Author",
+        "description": "vault.registers.text-references.authors.Author",
+        "peekOfCode": "class Author:\n    first_name: str\n    last_name: str\n    id: str\n    aliases: Optional[list[str]]\n    birthyear: Optional[list[str]]\n    nacionality: Optional[str]\n    genres: Optional[list[str]]\n    @staticmethod\n    def get_id(first_name: str, last_name: str) -> str:",
+        "detail": "vault.registers.text-references.authors.Author",
+        "documentation": {}
+    },
+    {
+        "label": "Verifier",
+        "kind": 6,
+        "importPath": "vault.registers.text-references.authors.Author",
+        "description": "vault.registers.text-references.authors.Author",
+        "peekOfCode": "class Verifier:\n    def __init__(self, P: Predicate, msgx = tuple[str, str]):\n        if (not msgx) or msgx == None:\n            self.msgx = (str(P) + \" verifier failed\", str(P) + \" verifier passed\")\n        else:\n            self.msgx = msgx\n        self.P = P\n    def __str__(self) -> str:\n        return \"Verifier(\" + str(self.P) + \")\"\n    def __call__(self, *args):",
+        "detail": "vault.registers.text-references.authors.Author",
+        "documentation": {}
+    },
+    {
+        "label": "Validator",
+        "kind": 6,
+        "importPath": "vault.registers.text-references.authors.Author",
+        "description": "vault.registers.text-references.authors.Author",
+        "peekOfCode": "class Validator:\n    def __init__(self, vx: list[Verifier]):\n        self.verifiers = vx\n    def __call__(self, *args):\n        verifiers = self.verifiers\n        try:\n            r, msg = verifiers.pop()[0]\n            print(msg)\n        except Exception as e:\n            print(e)",
+        "detail": "vault.registers.text-references.authors.Author",
+        "documentation": {}
+    },
+    {
+        "label": "v",
+        "kind": 5,
+        "importPath": "vault.registers.text-references.authors.Author",
+        "description": "vault.registers.text-references.authors.Author",
+        "peekOfCode": "v = Validator(vx=[\n    StringTypeVerifier,\n    EmptyStringVerifier\n])\nprint(str(v(\"\")));",
+        "detail": "vault.registers.text-references.authors.Author",
         "documentation": {}
     }
 ]
